@@ -20,7 +20,8 @@ class String
 
 
   def exclamation?
-
+    if self.end_with?("!")
+      return true
   end
 
   def count_sentences
