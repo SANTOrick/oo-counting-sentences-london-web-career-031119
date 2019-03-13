@@ -2,8 +2,10 @@ require 'pry'
 
 class String
 
-  def sentence?
-    exec(:string).to.end_with?("!")
+  def sentence
+    if self.end.with(".")
+      return true
+    
   end
 
   def question?
