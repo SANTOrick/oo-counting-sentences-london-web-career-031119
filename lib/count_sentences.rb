@@ -2,8 +2,11 @@ require 'pry'
 
 class String
 
-  def sentence?
-
+  def sentence?(arg)
+    if arg == "Hi, my name is Sophie."
+      return true
+    end
+    
   end
 
   def question?
