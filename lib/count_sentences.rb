@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    expect(:string).to.end_with?("!")
+    exec(:string).to.end_with?("!")
   end
 
   def question?
