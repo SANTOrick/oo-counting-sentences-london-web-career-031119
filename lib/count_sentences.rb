@@ -5,8 +5,6 @@ class String
   def sentence?
     expect(subject).to receive(:string).end_with?("!")
   end
-    end
-  end
 
   def question?
 
