@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(arg)
-    if arg == "Hi, my name is Sophie."
+  def sentence?
+    .end_with?(!)
       return true
     end
     
