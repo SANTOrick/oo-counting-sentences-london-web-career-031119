@@ -23,6 +23,7 @@ class String
     if self.end_with?("!")
       return true
   end
+end
 
   def count_sentences
 
