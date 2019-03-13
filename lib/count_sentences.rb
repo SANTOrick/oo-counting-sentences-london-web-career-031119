@@ -9,6 +9,10 @@ class String
   end
 
   def question?
+    if self.end_with?(".") == true 
+      return false
+    end
+  end
 
   end
 
